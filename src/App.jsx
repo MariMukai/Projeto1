@@ -1,4 +1,6 @@
 
+import Header from './components/Header'
+import Resultado from './components/Resultado'
 
 function App() {
 
@@ -6,7 +8,10 @@ function App() {
  
 
   return (
+    
     <>
+    <Header/>
+
     </>
   )
 }
