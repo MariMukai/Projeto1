@@ -1,0 +1,28 @@
+/*variaveis globais*/
+:root{
+
+    --fontColor:#ffff;
+    --fontColor1:#404;
+    --bgColor1:#483d;
+    --bgColor2:#404;
+}
+
+body{
+    background: var(--bgColor1)
+}
+
+.container{
+    display: flex;
+    flex-direction:column;
+    height:100;
+    align-items:center;
+    justify-content: center;
+}
+
+@media (max-width: 500px){
+    .container{
+        justify-content:start;
+        padding:15px;
+    }
+
+}
